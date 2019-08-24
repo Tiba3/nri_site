@@ -2,6 +2,14 @@
 
 /* font-family: 'Noto Sans JP', sans-serif; */
 
+article #main #toplist li {
+    list-style-type: none;
+    font-size: 12px;
+    color: #999999;
+    border: none;
+    display: table-cell;
+}
+
 body {
     width: 800px;
     margin-right: auto;
@@ -55,25 +63,37 @@ img {
     float: right;
 }
 
+#test {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+#test .list1 .bodylist {
+    width: 25%;
+    display: table-cell;
+}
+
+#test .list2 .bodylist {
+    width: 25%;
+    display: table-cell;
+}
+
+#test .list3 .bodylist {
+    width: 25%;
+    display: table-cell;
+}
+
+#test .bodylist li {
+    color: #666666;
+    font-size: 14px;
+    list-style-type: none;
+}
+
 ul.h3_list>li {
     color: #0c419c;
     font-size: 14px;
     list-style-type: none;
-    display: table-cell;
-}
-
-ul.bodylist>li {
-    color: #666666;
-    font-size: 14px;
-    list-style-type: none;
-}
-
-ul.bodylist {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    color: #666666;
-    font-size: 16px;
     display: table-cell;
 }
 
