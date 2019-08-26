@@ -1,109 +1,90 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
-
-/* font-family: 'Noto Sans JP', sans-serif; */
-
-article #main #toplist li {
-    list-style-type: none;
-    font-size: 12px;
-    color: #999999;
-    border: none;
-    display: table-cell;
-}
-
-body {
-    width: 800px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-p {
-    font-size: 16px;
-    color: #333333;
-}
-
-h2 {
-    font-size: 20px;
-}
-
-h3 {
-    font-size: 16px;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
-}
-
-#box1 {
-    text-align: center;
-    width: 300px;
-    height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    background-color: #3466bd;
-}
-
-#box1 .test {
-    font-size: 16px;
-    color: #ffffff;
-    list-style-type: none;
-}
-
-#site-box {
-    font-size: 16px;
-    margin: 0 auto;
-}
-
-#site-box #l-box {
-    float: left;
-}
-
-#site-box #r-box {
-    float: right;
-}
-
-#test {
-    width: 100%;
-    display: table;
-    table-layout: fixed;
-}
-
-#test .list1 .bodylist {
-    width: 25%;
-    display: table-cell;
-}
-
-#test .list2 .bodylist {
-    width: 25%;
-    display: table-cell;
-}
-
-#test .list3 .bodylist {
-    width: 25%;
-    display: table-cell;
-}
-
-#test .bodylist li {
-    color: #666666;
-    font-size: 14px;
-    list-style-type: none;
-}
-
-ul.h3_list>li {
-    color: #0c419c;
-    font-size: 14px;
-    list-style-type: none;
-    display: table-cell;
-}
-
-nav .navlist li {
-    font-size: 8px;
-    color: #333333;
-    display: table-cell;
-}
-
-#copyright {
-    color: #333333;
-    font-size: 10px;
-}
+                @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+                /* font-family: 'Noto Sans JP', sans-serif; */
+                /*  --------------------heder_list以下--------------------- */
+                
+                #header_nav li {
+                    display: table-cell;
+                    list-style: none;
+                }
+                
+                #header_nav li a {
+                    font-size: 12px;
+                    color: #999999;
+                }
+                /*  --------------------site-box以下--------------------- */
+                
+                #site-box {
+                    margin: 0 auto;
+                }
+                
+                #site-box a {
+                    font-size: 16px;
+                    text-decoration: none;
+                }
+                
+                #site-box #l-box {
+                    float: left;
+                }
+                
+                #site-box #r-box {
+                    float: right;
+                }
+                
+                #body_main .h3_list {
+                    list-style: none;
+                }
+                /*  --------------------body_list以下--------------------- */
+                
+                .h3_list .list_h3 li {
+                    width: 25%;
+                    display: table-cell;
+                    list-style: none;
+                }
+                
+                .h3_list li a {
+                    font-size: 14px;
+                    color: #0c419a;
+                    text-decoration: none;
+                }
+                /*  --------------------body_link以下--------------------- */
+                
+                #body_sub #body_link .list1 .body_list {
+                    width: 25%;
+                    display: table-cell;
+                }
+                
+                #body_link .body_list>a {
+                    font-size: 16px;
+                    color: #666666;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+                
+                #body_link .body_list li {
+                    list-style: none;
+                }
+                
+                #body_link .body_list li a {
+                    font-size: 14px;
+                    color: #666666;
+                    text-decoration: none;
+                }
+                /*  --------------------body_linkアイコン部--------------------- */
+                /* ---------------------- nav_list以下--------------------- */
+                
+                #foot_nav .nav_list li {
+                    display: table-cell;
+                    list-style: none;
+                }
+                
+                nav .nav_list a {
+                    font-size: 12px;
+                    color: #999999;
+                    text-decoration: none;
+                }
+                /* ---------------------- copy_right以下--------------------- */
+                
+                #copy_right {
+                    font-size: 10px;
+                    color: #333333;
+                }
