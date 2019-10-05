@@ -1,90 +1,266 @@
-                @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
-                /* font-family: 'Noto Sans JP', sans-serif; */
-                /*  --------------------heder_list以下--------------------- */
-                
-                #header_nav li {
-                    display: table-cell;
-                    list-style: none;
-                }
-                
-                #header_nav li a {
-                    font-size: 12px;
-                    color: #999999;
-                }
-                /*  --------------------site-box以下--------------------- */
-                
-                #site-box {
-                    margin: 0 auto;
-                }
-                
-                #site-box a {
-                    font-size: 16px;
-                    text-decoration: none;
-                }
-                
-                #site-box #l-box {
-                    float: left;
-                }
-                
-                #site-box #r-box {
-                    float: right;
-                }
-                
-                #body_main .h3_list {
-                    list-style: none;
-                }
-                /*  --------------------body_list以下--------------------- */
-                
-                .h3_list .list_h3 li {
-                    width: 25%;
-                    display: table-cell;
-                    list-style: none;
-                }
-                
-                .h3_list li a {
-                    font-size: 14px;
-                    color: #0c419a;
-                    text-decoration: none;
-                }
-                /*  --------------------body_link以下--------------------- */
-                
-                #body_sub #body_link .list1 .body_list {
-                    width: 25%;
-                    display: table-cell;
-                }
-                
-                #body_link .body_list>a {
-                    font-size: 16px;
-                    color: #666666;
-                    font-weight: bold;
-                    text-decoration: none;
-                }
-                
-                #body_link .body_list li {
-                    list-style: none;
-                }
-                
-                #body_link .body_list li a {
-                    font-size: 14px;
-                    color: #666666;
-                    text-decoration: none;
-                }
-                /*  --------------------body_linkアイコン部--------------------- */
-                /* ---------------------- nav_list以下--------------------- */
-                
-                #foot_nav .nav_list li {
-                    display: table-cell;
-                    list-style: none;
-                }
-                
-                nav .nav_list a {
-                    font-size: 12px;
-                    color: #999999;
-                    text-decoration: none;
-                }
-                /* ---------------------- copy_right以下--------------------- */
-                
-                #copy_right {
-                    font-size: 10px;
-                    color: #333333;
-                }
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+
+/* font-family: 'Noto Sans JP', sans-serif; */
+
+
+/*background-color:#ddf031;*/
+
+#body_main {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*  ヘッダーアイコン */
+
+.head_title #header .site-title img {
+    width: 65px;
+    height: 65px;
+}
+
+.head_title #header {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+}
+
+
+/* .head_title #header .site-title {
+    top: 0;
+    margin: 0;
+    width: 100%;
+} */
+
+#head_titleText img {
+    width: 100%;
+    height: 250px;
+    z-index: -1;
+}
+
+
+/*  --------------------head_content 以下--------------------- */
+
+#head_title #head_content ul {
+    display: table-cell;
+    list-style: none;
+}
+
+#head_title #head_content ul li a {
+    font-size: 12px;
+    color: #999999;
+    text-decoration: none;
+}
+
+#head_title #head_content ul li a :hover {
+    text-decoration: underline;
+}
+
+
+/*  --------------------head_title以下--------------------- */
+
+#head_titleText img {
+    object-fit: cover;
+    position: relative;
+    /* margin-top: 100px; */
+}
+
+#head_titleText p {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    font-size: 20px;
+    color: #ffffff;
+    z-index: -1;
+}
+
+#head_titleText h1 {
+    position: absolute;
+    left: 50px;
+    top: 250px;
+    font-size: 28px;
+    color: #ffffff;
+    z-index: -1;
+}
+
+#body_main #main #main_title h2 :before {
+    content: "";
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    background: url(images/bg-heading-h2.png) no-repeat;
+    background-size: contain;
+}
+
+
+/*  --------------------body_main #main以下--------------------- */
+
+
+/* *******************仮 ****************/
+
+.h3_list {
+    list-style: none;
+}
+
+
+/* *******************仮 ****************/
+
+#body_main #main {
+    width: 800px;
+}
+
+#body_main #main .box_img1 img {
+    height: 450px;
+}
+
+#body_main #main .box_img2 img {
+    height: 550px;
+}
+
+#site-box {
+    margin: 0 auto;
+}
+
+#site-box a {
+    font-size: 16px;
+    color: #0c419a;
+    text-decoration: none;
+}
+
+#site-box a :hover {
+    text-decoration: underline;
+}
+
+#site-box #l-box {
+    float: left;
+}
+
+#site-box #r-box {
+    float: right;
+}
+
+#body_main .h4_list {
+    list-style: none;
+}
+
+
+/*  --------------------body_list以下--------------------- */
+
+#body_list .h4_list .list_h4 {
+    padding-left: 0;
+}
+
+#body_list .h4_list .list_h4 li {
+    width: 25%;
+    display: table-cell;
+    list-style: none;
+    padding-left: 0;
+}
+
+.h4_list .list_h4 li a {
+    font-size: 14px;
+    color: #0c419a;
+    text-decoration: none;
+}
+
+#body_list .h4_list .list_h4 li:hover {
+    text-decoration: underline;
+}
+
+
+/* --------------------back_link 以下--------------------- */
+
+.back_link a {
+    font-size: 16px;
+    color: #0c419a;
+    text-decoration: none;
+}
+
+.back_link :hover {
+    text-decoration: underline;
+}
+
+
+/*  --------------------page_foot以下--------------------- */
+
+#page_foot {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#page_foot #foot_link .list1 ul {
+    width: 25%;
+    display: table-cell;
+    padding-left: 0;
+}
+
+#page_foot #foot_link .foot_list>a {
+    font-size: 16px;
+    color: #666666;
+    font-weight: bold;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+#page_foot #foot_link .list1 ul {
+    padding-left: 0;
+}
+
+#page_foot #foot_link .list1 ul li {
+    list-style: none;
+}
+
+#page_foot #foot_link .list1 ul li a {
+    list-style: none;
+}
+
+#foot_link .foot_list li a {
+    font-size: 14px;
+    color: #666666;
+    text-decoration: none;
+}
+
+#foot_link .foot_list li>a:hover {
+    text-decoration: underline;
+}
+
+.list1 ul .foot_list {
+    width: 25%;
+    display: table-cell;
+    padding-left: 0;
+}
+
+
+/* ----------------------- 免責事項付近 --------------- */
+
+#foot_nav ul {
+    padding-left: 0;
+}
+
+#foot_nav .nav_list li {
+    width: 10%;
+    display: table-cell;
+    list-style: none;
+}
+
+nav .nav_list a {
+    font-size: 12px;
+    color: #999999;
+    text-decoration: none;
+}
+
+nav .nav_list a:hover {
+    text-decoration: underline;
+}
+
+
+/* ---------------------- copy_right以下--------------------- */
+
+.copy_right {
+    font-size: 10px;
+    color: #333333;
+}
