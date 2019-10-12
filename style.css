@@ -2,9 +2,6 @@
 
 /* font-family: 'Noto Sans JP', sans-serif; */
 
-
-/*background-color:#ddf031;*/
-
 #body_main {
     width: 1000px;
     margin-right: auto;
@@ -27,13 +24,6 @@
     height: 100px;
     background-color: #ffffff;
 }
-
-
-/* .head_title #header .site-title {
-    top: 0;
-    margin: 0;
-    width: 100%;
-} */
 
 #head_titleText img {
     width: 100%;
@@ -65,7 +55,6 @@
 #head_titleText img {
     object-fit: cover;
     position: relative;
-    /* margin-top: 100px; */
 }
 
 #head_titleText p {
@@ -120,7 +109,24 @@
     height: 550px;
 }
 
+#btn-box {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 60px;
+    background: #0c419a;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+#btn-box a {
+    font-size: 14px;
+    color: #ffffff;
+}
+
 #site-box {
+    height: 70px;
     margin: 0 auto;
 }
 
@@ -141,6 +147,32 @@
 #site-box #r-box {
     float: right;
 }
+
+
+/* ******************* main-box ****************/
+
+#main-box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 200px;
+    background: #d6e1f5;
+    text-align: center;
+}
+
+#main-box h3 {
+    text-align: left;
+    font-size: 16px;
+}
+
+#main-box #h3_box .box_list {
+    width: 10%;
+    display: table-cell;
+    list-style: none;
+}
+
+
+/* **********************************/
 
 #body_main .h4_list {
     list-style: none;
@@ -184,6 +216,31 @@
 }
 
 
+/*  --------------------sns-i-con以下--------------------- */
+
+.sns-i-con {
+    width: 100%;
+    height: 100px;
+}
+
+.sns-i-con .follow-us {
+    list-style: none;
+    margin: 0 0 -8px;
+    padding: 0;
+}
+
+.sns-i-con .follow-us li {
+    float: left;
+    margin: 0 8px 8px 0;
+    padding: 0;
+}
+
+.sns-i-con .follow-us li a {}
+
+
+/*  ----------------------------------------------------------- */
+
+
 /*  --------------------page_foot以下--------------------- */
 
 #page_foot {
@@ -194,8 +251,11 @@
 
 #page_foot #foot_link .list1 ul {
     width: 25%;
+    /* width: 500px; */
     display: table-cell;
     padding-left: 0;
+    border-top: 1px #666666 solid;
+    border-bottom: 1px #666666 solid;
 }
 
 #page_foot #foot_link .foot_list>a {
